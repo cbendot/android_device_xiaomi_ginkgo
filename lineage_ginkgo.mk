@@ -33,3 +33,9 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8/8T
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="ginkgo-user 11 RKQ1.201004.002 V12.5.2.0.RCOMIXM release-keys"
+
+# Build Fingerprint
+BUILD_FINGERPRINT := xiaomi/ginkgo/ginkgo:11/RKQ1.201004.002/V12.5.2.0.RCOMIXM:user/release-keys
